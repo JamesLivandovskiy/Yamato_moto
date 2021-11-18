@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+
+}
+
+,
+* *:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3.h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/*Container*/
+.contener {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/*Intro*/
+.intro {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background:
+        url(../imges/fon_head.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+
+}
+
+.intro_title {
+    font-size: 150px;
+    color: #db2a07;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+/* Heder*/
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+.header.fixed {
+    background-color: black;
+    height: 65px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transform: translate3d(0, 0, 0);
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*Logo*/
+
+.href_home {
+    font-family: 'Noto Sans JP', sans-serif;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color .25s linear;
+}
+
+.href_home:hover {
+    color: #db2a07;
+}
+
+/*Navigetion*/
+.nav {
+    font-size: 20px;
+}
+
+.nav_link {
+    color: #FFf;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    transition: color .25s linear;
+    margin: 0 25px;
+
+}
+
+.nav_link:hover {
+    color: #db2a07;
+}
+
+.nav_link.active {
+    color: #db2a07;
+}
+
+/*section*/
+.section {
+    padding: 80px 0;
+}
+
+.cection_heder {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section_suptitl {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+.section_title {
+    font-size: 45px;
+}
+
+.section_text {
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+/*About*/
+.section_about {
+    padding: 80px 0;
+}
+.foto_of_mark{
+    margin-top: 25px;
+    height: 250px;
+}
+/*footer*/
+.footer {
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+}
+
+.footer_text {
+    font-size: 13px;
+    padding-top: 10px;
+}
+/*Mark*/
+.foto_car{
+    height: 80px;
+}
+.owl-carousel.owl-theme{
+    margin-top: 25px;
+}
+.item_img{
+    height: 200px;
+}
+.item_link{
+    text-decoration: none;
+}
+.item_text{
+    color: #333;
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+}
